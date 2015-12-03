@@ -7,6 +7,6 @@
 2. 在你的网站中加入如下代码
 ```
   jQuery ->
-   $.post 'http://pageview.anjingdenaobu.com/asynces/views', {site_id: "1", path: document.location.pathname}, (data)->
-     console.log(data)
+   $.post 'http://pageview.anjingdenaobu.com/asynces/views', {site_id: "1", path: document.location.pathname}, (pageview_count)->
+     # the code you display count
 ```

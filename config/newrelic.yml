@@ -1,0 +1,22 @@
+
+common: &default_settings
+  license_key: db2e3c815ced218abbd1861d6b02fbe1d604adac
+  app_name: PageView
+  monitor_mode: true
+  log_level: info
+
+development:
+  <<: *default_settings
+  app_name: PageView(Development)
+  developer_mode: true
+
+test:
+  <<: *default_settings
+  monitor_mode: false
+
+staging:
+  <<: *default_settings
+  app_name: PageView(Staging)
+
+production:
+  <<: *default_settings

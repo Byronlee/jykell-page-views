@@ -1,0 +1,1 @@
+require File.expand_path('../../../lib/cache_field/cache_field', __FILE__)

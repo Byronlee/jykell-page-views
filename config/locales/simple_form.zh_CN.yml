@@ -1,0 +1,144 @@
+# -*- coding: utf-8 -*-
+zh-CN:
+  simple_form:
+    required:
+      text: 'required'
+      mark: '*'
+      html: '<abbr title="required"><font color="red">*</font></abbr>'
+    error_notification:
+      default_message: "请查看下面详细的错误提示:"
+    labels:
+      post:
+        title: '文章标题'
+        title_link: '标题链接'
+        remark: '备注'
+        catch_title: '文章短标题'
+        slug: 文章slug
+        summary: '文章摘要'
+        content: '文章内容'
+        column_id: '所属专栏'
+        cover: '特色图片'
+        disable_with: '正在提交...'
+        tag_list: '标签'
+        user_id: '作者ID'
+        source_urls: 来源链接
+        source_type: 文章来源
+        close_comment: 关闭评论
+      head_line:
+        url: 网址
+        order_num: 序号
+        title: 文章标题
+        post_type: 文章类型
+        section: 所属分类
+        section_text: 所属分类名称
+        image: 图片链接
+        url_code: CODE
+        summary: 摘要
+        hidden_title: 是否隐藏标题
+      page:
+        title: 标题
+        slug: 英文短标题
+        body: 内容(Markdown)
+      column:
+        name: 专栏名称
+        introduce: 专栏介绍
+        cover: 专栏图像
+        icon:  专栏图标
+        disable_with: '正在提交...'
+        order_num: '序号'
+        label_bgcolor: '标签背景色'
+        factory: 爬虫
+      user:
+        role: 角色
+        name: 用户昵称
+        email: 邮件
+        phone: 手机号码
+        tagline: 一句话介绍自己
+        notice_by_weixin: 微信推送
+        id: 用户ID
+        sso: 用户中心ID
+        sso_id: 用户中心ID
+      comment:
+        content: 评论内容
+      ad:
+        content: 广告内容
+        position: 广告位
+      fragment_template:
+        name: 片段名称
+        content_type: 片段类型
+        content: 片段内容
+    placeholders:
+      post:
+        title: '请输入40字以内的文章标题'
+        title_link: '站内文章无需填写'
+        catch_title: '请输入14字以内的文章短标题'
+        slug: 请输入文章slug
+        summary: '请输入40字以内的文章摘要'
+        content: '请输入1万字以内的文章内容'
+      head_line:
+        url: 网站URL
+        order_num: 优先级序号
+        title: 文章标题
+        post_type: 文章类型
+        section: 所属分类
+        section_text: 所属分类名称
+        image: 图片链接
+        url_code: 'url code 编码, 请勿删除'
+        display_position: 展示位置
+        summary: 摘要
+      column:
+        name: '专栏名称'
+        introduce: '专栏介绍'
+        cover: 专栏图像
+        icon:  专栏图标
+      comment:
+        content: '您怎么看？'
+      ad:
+        content: 广告占位内容？
+        position: 广告位置
+      info_flow:
+        name: 信息流名称
+    prompt:
+  helpers:
+    submit:
+      post:
+        create: '创建文章'
+        update: '更新文章发布信息'
+      column:
+        create: '创建专栏'
+        update: '更新专栏'
+      head_line:
+        create: '创建头条'
+        update: '更新头条'
+      user:
+        create: '创建用户'
+        update: '确认更新'
+      comment:
+        create: '创建评论'
+      ad:
+        create: '创建广告位'
+        update: '更新广告位'
+      newsflash:
+        create: '创建'
+        update: '更新'
+      info_flow:
+        create: '创建信息流'
+        update: '更新信息流'
+      related_link:
+        create: '创建链接'
+        update: '更新链接'
+    page_entries_info:
+      one_page:
+        display_entries:
+          zero: "没有找到记录"
+          one: "显示 <b>1</b> 条记录"
+          other: "显示 <b> %{count}</b> 条记录"
+      more_pages:
+        display_entries: "显示记录 <b>%{first}&nbsp;-&nbsp;%{last}</b> / <b>%{total}</b>"
+  views:
+    pagination:
+      first: "&laquo; 首页"
+      last: "尾页 &raquo;"
+      previous: "&lsaquo; 前一页"
+      next: "下一页 &rsaquo;"
+      truncate: "&hellip;"

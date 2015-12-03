@@ -1,0 +1,6 @@
+# robots.txt
+User-agent: *
+Crawl-delay: 10
+Disallow: /users/sign_in*
+Disallow: /search*
+Sitemap: http://www.anjingdenaobu.com/site_map.xml

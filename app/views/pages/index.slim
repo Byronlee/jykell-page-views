@@ -1,0 +1,14 @@
+= @site.name
+br
+= @site.url
+br
+= @site.site_uuid
+hr
+table
+  tr
+    th 页面
+    th 累计PageView
+  - @site.pages.each do | page |
+    tr
+      td = page.path
+      td = page.views.count

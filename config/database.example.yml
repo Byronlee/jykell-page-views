@@ -1,0 +1,23 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  username: postgres
+  password: postgres
+  host:  localhost
+
+development:
+  <<: *default
+  database: pageview_development
+
+test:
+  <<: *default
+  database: pageview_test
+
+production:
+  <<: *default
+  database: pageview_production
+  username: postgres
+  password: postgres
+
+

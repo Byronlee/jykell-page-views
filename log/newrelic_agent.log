@@ -9374,3 +9374,4 @@
 [12/04/15 00:42:33 +0800 MacBookPro (55140)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
 [12/04/15 00:42:33 +0800 MacBookPro (55140)] ERROR : NewRelic::Agent::NewRelicService::CollectorError: RuntimeError: Server Error (IOException): java.util.concurrent.TimeoutException: Idle timeout expired: 5000/5000 ms
 [12/04/15 00:42:33 +0800 MacBookPro (55140)] INFO : Will re-attempt in 60 seconds
+[12/04/15 00:43:38 +0800 MacBookPro (55140)] INFO : Reporting to: https://rpm.newrelic.com/accounts/444753/applications/10898976

@@ -1,7 +1,7 @@
 set :application, 'PageView'
 set :scm, :git
-set :repo_url, "git@github.com:NoonTechnology/AnJingDeNaoBu.git"
-set :deploy_to, "/var/www/apps/AnJingDeNaoBu"
+set :repo_url, "git@github.com:Byronlee/jykell-page-views.git"
+set :deploy_to, "/var/www/apps/PageView"
 set :rails_env, 'production'
 set :unicorn_rack_env, 'production'
 set :ssh_options, { keys: %w{~/.ssh/id_rsa}, forward_agent: true, auth_methods: %w(publickey) }

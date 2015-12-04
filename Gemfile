@@ -47,7 +47,7 @@ gem "simple_form", "~> 3.0.1"
 gem "highcharts-rails", "~> 3.0.0"
 gem 'cells', "~> 3.11.3"
 gem "jquery-fileupload-rails"
-gem 'chosen-rails'
+#gem 'chosen-rails'
 gem "font-awesome-rails"
 gem "responders"
 gem 'httparty'
